@@ -87,6 +87,8 @@ Look at that! How efficient is that!! We got 3 Development instances created and
 
 Awesome! All three Development instances are there!
 
+<img width="804" alt="Screenshot 2023-05-18 at 08 45 22" src="https://github.com/Mamiololo01/Automating_AWS_ec2_with_boto3/assets/67044030/0a0ad2b4-5160-47b5-b4d6-f02850f41f87">
+
 <img width="1031" alt="Screenshot 2023-05-18 at 08 45 47" src="https://github.com/Mamiololo01/Automating_AWS_ec2_with_boto3/assets/67044030/0f8889fe-7b29-4eca-a06f-d2a668ad32d2">
 
 
