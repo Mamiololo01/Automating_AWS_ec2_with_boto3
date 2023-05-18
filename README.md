@@ -23,15 +23,6 @@ Basic Python programming language
 Basic knowledge of AWS Interactive Development Environment (IDE)
 Ok let's get started.
 
-Launch EC2 Instances in the AWS management console.
-Click Launch Instance >Name your instance: Week 14 EC2Project > “Additional tags” > Add tag > Key: Environment > Value: Dev
-
-
-
-We are going to create 3 instances, 3 for Development environment, tagged Dev. The goal of this project is to lower cost in the Development environment. The rest under Quick Start > Amazon Linux > Instance Type T2.micro instnace type. > Key Pair: “Myownkeypair” > Launch Instance. Repeat two more steps to create all three instances tagged “Dev”
-
-Ok, great! We got all 3 instances running.
-
 
 BUT, there is another fun way to create all three instances just using Python Script. I will show you how after these few steps first.
 
@@ -50,22 +41,20 @@ pip3 install awscli
 
 Great! Once this step is done, go to Github to Create and Clone the repo.
 
-Create A new repository> Repository name: Week14EC2ProjectDev > Public > Add a README file > Add. gitignore template: Python > License: none > Create Repository
+Create A new repository> Repository name: Automating_AWS_ec2_with_boto3 > Public > Add a README file > Add. gitignore template: Python > License: none > Create Repository
 
 
 Next, back to the Cloud9 environment terminal: Enter following command to clone the repo.
 
 git clone "Your own Github repo URL"
 
-git clone https://github.com/Jleeluit/Week14EC2ProjectDev
+git clone https://github.com/Mamiololo01/Automating_AWS_ec2_with_boto3/
 
-Awesome! We got Week14EC2ProjectDev Folder in the AWS cloud9 IDE
+Awesome! We got Automating_AWS_ec2_with_boto3 Folder in the AWS cloud9 IDE
 
 Next create a new branch and Python file.
 
-
 We need to create a new file before we get started! Select File > New From Template > Python File > Save As… and give it a name. Make sure you KEEP the extension .py.
-
 
 Make sure we are in the correct working directory.
 
@@ -76,7 +65,7 @@ Ok! We are going to create a Python script to start all EC2 instances with the E
 
 As this point we already Manually created 3 instances in the AWS console. Let’s switch it up and utilize the power of Python script to create 3 instances instead.
 
-Below is the Python Script code in GitHub Gist. Feel free use this code.
+Attached is the file startec2.py to create AWS ec2 instances.
 
 
 Ok, let’s run the script in AWS cloud 9 IDE to Start and create all three Development instances.
