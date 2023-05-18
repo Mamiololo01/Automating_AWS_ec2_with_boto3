@@ -101,6 +101,11 @@ Ok, let’s run the Python script in AWS cloud 9 IDE to Stop all three Developme
 
 Great! All 3 Development Instances are stopped! Mission accomplished! Saving money never goes out of style! :D
 
+<img width="718" alt="Screenshot 2023-05-18 at 08 49 08" src="https://github.com/Mamiololo01/Automating_AWS_ec2_with_boto3/assets/67044030/188ef693-347d-4538-9c34-7e855a4928c9">
 
-Awesome! Click Compare & Pull request to Create pull request in GitHub! (You can customized the comment)
+
+<img width="993" alt="Screenshot 2023-05-18 at 08 49 33" src="https://github.com/Mamiololo01/Automating_AWS_ec2_with_boto3/assets/67044030/5df3c0cc-4a3f-4da5-b093-c4b97af35580">
+
+
+Awesome! 
 
