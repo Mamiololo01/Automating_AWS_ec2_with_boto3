@@ -87,17 +87,8 @@ Look at that! How efficient is that!! We got 3 Development instances created and
 
 Awesome! All three Development instances are there!
 
+<img width="1031" alt="Screenshot 2023-05-18 at 08 45 47" src="https://github.com/Mamiololo01/Automating_AWS_ec2_with_boto3/assets/67044030/0f8889fe-7b29-4eca-a06f-d2a668ad32d2">
 
-I almost forgot to create three Production Instances. Initially, I can just add that Production Python script with the Environment instances. But, O’well Let’s repeat the step.
-
-Ok, let’s run the script in AWS cloud 9 IDE to Start and create all three Production instances.
-
-
-
-We also got 3 Production instances created and let’s go to AWS console and double check that if it is there.
-
-
-Great! All three Production instances are there!
 
 Python Script to Stop all three Development Instances
 Ok, now we can stop all three Develoment instances using this Python script I’ve attached below.
@@ -107,32 +98,6 @@ Ok, let’s run the Python script in AWS cloud 9 IDE to Stop all three Developme
 
 
 Great! All 3 Development Instances are stopped! Mission accomplished! Saving money never goes out of style! :D
-
-
-Here are the links Via AWS Boto3 Documentation to start and stop an EC2 instance.
-
-start_instances — Boto3 1.26.111 documentation (amazonaws.com)
-
-stop_instances - Boto3 1.26.110 documentation
-Client / stop_instances Stops an Amazon EBS-backed instance. For more information, see Stop and start your instance in…
-boto3.amazonaws.com
-
-Push Python Script Code to GitHub
-Last 3 steps, let’s push all three of the Python scripts code to my GitHub Account. (I will just use one for step guide purposes).
-
-git push  git push --set-upstream origin Week14EC2Project
-We will configure Git with our Usename and password. (Remember, the password is the Personal Access Token) Here is the link if you need to create a new Personal Access Token.
-
-Creating a personal access token - GitHub Enterprise Server 3.4 Docs
-Personal access tokens are an alternative to using passwords for authentication to GitHub Enterprise Server when using…
-docs.github.com
-
-
-Click on the Source Control Icon, and Click + sign before the green U letter to stage the changes.
-
-
-Type in Name: RunDevelopmentInstances > It is important to Type in CONTROL & ENTER in order to push the Code to GitHub. (I am missing one screen shot, It is at the bottom left corner following the previous step, you will see and loop icon and up arrow, click on that, then this will be the last step to push the code to GitHub).
-
 
 
 Awesome! Click Compare & Pull request to Create pull request in GitHub! (You can customized the comment)
