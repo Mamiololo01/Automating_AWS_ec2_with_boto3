@@ -39,6 +39,9 @@ We also want to make sure AWS CLI is installed as well.
 
 pip3 install awscli
 
+<img width="788" alt="Screenshot 2023-05-18 at 09 13 26" src="https://github.com/Mamiololo01/Automating_AWS_ec2_with_boto3/assets/67044030/a2c3038e-8b16-4090-aef7-e21af300693c">
+
+
 Great! Once this step is done, go to Github to Create and Clone the repo.
 
 Create A new repository> Repository name: Automating_AWS_ec2_with_boto3 > Public > Add a README file > Add. gitignore template: Python > License: none > Create Repository
